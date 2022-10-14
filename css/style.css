@@ -42,3 +42,18 @@ h3{
 img {
   width: 100%;
 }
+a {
+  color: #719A9D;
+  text-decoration: none; /* No underlining */
+}
+a:visited {
+  color: #FFFDFF;
+}
+a:hover,
+a:focus {
+  color: #BCA09E;
+  text-decoration: underline;
+}
+a:active { /* selected link */
+  color: #BCA09E;
+}
