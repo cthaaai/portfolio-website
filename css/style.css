@@ -47,7 +47,7 @@ a {
   text-decoration: none; /* No underlining */
 }
 a:visited {
-  color: #FFFDFF;
+  color: #CECBCB;
 }
 a:hover,
 a:focus {
@@ -66,6 +66,9 @@ a:active { /* selected link */
   border-radius: 10px;
   border-bottom: 4px solid #F4E7E7; /* width of the border, type, color */
   transition: 0.2s opacity;
+}
+.button:visited {
+  color: #FFFDFF;
 }
 .button:hover,
 .button:focus {
@@ -92,6 +95,9 @@ text-decoration: none;
   border-radius: 15px;
   border-bottom: 4px solid #719A9D; /* width of the border, type, color */
   transition: 0.7s opacity;
+}
+.button.contact:visited {
+  color: #FFFDFF;
 }
 .button.contact:hover,
 .button.contact:focus {
