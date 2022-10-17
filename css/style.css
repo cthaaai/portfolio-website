@@ -47,7 +47,7 @@ a {
   text-decoration: none; /* No underlining */
 }
 a:visited {
-  color: #CECBCB;
+  color: #719A9D;
 }
 a:hover,
 a:focus {
@@ -68,7 +68,7 @@ a:active { /* selected link */
   transition: 0.2s opacity;
 }
 .button:visited {
-  color: #FFFDFF;
+  color: #000000;
 }
 .button:hover,
 .button:focus {
@@ -97,7 +97,7 @@ text-decoration: none;
   transition: 0.7s opacity;
 }
 .button.contact:visited {
-  color: #FFFDFF;
+  color: #000000;
 }
 .button.contact:hover,
 .button.contact:focus {
