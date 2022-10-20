@@ -21,6 +21,9 @@ font-family: 'Roboto Condensed', sans-serif; (heading) L300 R400 B700
 .row {
   margin: 25px 0;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Adamina', serif;
   font-size: 20px;
