@@ -100,6 +100,9 @@ h3{
   height: 390px;
   width: 320px;
 }
+#hero1 h2 {
+  text-align: center;
+}
 a {
   color: #000000;
   text-decoration: none; /* No underlining */
