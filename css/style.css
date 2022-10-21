@@ -109,8 +109,8 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #BCA09E;
-  text-decoration: underline;
+  color: #719A9D;
+  text-decoration: overline;
 }
 a:active { /* selected link */
   color: #BCA09E;
