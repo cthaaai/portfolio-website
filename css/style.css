@@ -21,6 +21,35 @@ font-family: 'Roboto Condensed', sans-serif; (heading) L300 R400 B700
 .row {
   margin: 25px 0;
 }
+header {
+  background-color: transparent;
+  border-bottom: 0px solid transparent;
+  text-align: left;
+  padding: 2px 0;
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  transform: rotate(90deg) translate(100%, 0);
+  transform-origin: right top;
+}
+.logo{
+  height: 42px;
+  width: 150px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+}
+nav > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
 * {
   box-sizing: border-box;
 }
@@ -33,7 +62,6 @@ font-family: 'Roboto Condensed', sans-serif; (heading) L300 R400 B700
 }
 #hero h1 {
   margin: 0;
-  padding-top: 25px;
   padding-bottom: 0px;
   padding-right: 5px;
   padding-left: 5px;
