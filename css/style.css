@@ -96,9 +96,9 @@ h3{
   font-size: 1.953em;
   font-weight: 400;
 }
-
-img {
-  width: 100%;
+.ctphoto{
+  height: 390px;
+  width: 320px;
 }
 a {
   color: #000000;
