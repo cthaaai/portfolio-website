@@ -24,6 +24,10 @@ font-family: 'Roboto Condensed', sans-serif; (heading) L300 R400 B700
 * {
   box-sizing: border-box;
 }
+.hello{
+  height: 80px;
+  width: 80px;
+}
 #hero {
   background-color: transparent;
 }
