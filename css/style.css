@@ -101,11 +101,11 @@ img {
   width: 100%;
 }
 a {
-  color: #719A9D;
+  color: #000000;
   text-decoration: none; /* No underlining */
 }
 a:visited {
-  color: #719A9D;
+  color: #00000;
 }
 a:hover,
 a:focus {
