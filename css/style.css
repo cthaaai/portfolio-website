@@ -113,7 +113,15 @@ a:focus {
   text-decoration: overline;
 }
 a:active { /* selected link */
-  color: #BCA09E;
+  color: #719A9D;
+}
+.linkedin {
+  height: 42px;
+  width: 42px;
+  float: right;
+}
+img {
+  width: 100%;
 }
 .button {
   display: inline-block;
