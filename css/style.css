@@ -175,7 +175,7 @@ img {
 }
 .button:hover,
 .button:focus {
-  opacity: 0.7; /* Reduces the opacity of the button to 80% */
+  opacity: 0.7; /* Reduces the opacity of the button to 70% */
       color: #BCA09E;
 text-decoration: none;
 }
