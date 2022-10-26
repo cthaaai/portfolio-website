@@ -32,6 +32,9 @@ header {
   transform: rotate(90deg) translate(100%, 0);
   transform-origin: right top;
 }
+header .container {
+  width: 100vh;
+}
 .logo{
   height: 42px;
   width: 150px;
