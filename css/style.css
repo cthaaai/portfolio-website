@@ -79,8 +79,10 @@ nav > ul > li {
   padding-bottom: 0px;
 }
 #hero p {
-  text-align: center;
-  padding-bottom: 20px;
+  height: 150px;
+  width: 310px;
+  padding-bottom: 0px;
+  text-align: left;
 }
 body {
   font-family: 'Adamina', serif;
