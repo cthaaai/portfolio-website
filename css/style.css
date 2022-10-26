@@ -112,7 +112,10 @@ h3{
   height: 202px;
   width: 330px;
 }
-#hero1 h2 {
+.ctphoto2{
+  text-align: center;
+}
+.container2{
   text-align: center;
 }
 a {
