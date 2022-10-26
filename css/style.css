@@ -197,7 +197,7 @@ text-decoration: none;
   padding: 10px;
   border-radius: 15px;
   border-bottom: 4px solid #719A9D; /* width of the border, type, color */
-  transition: 0.7s opacity;
+  transition: 0.2s opacity;
 }
 .button.contact:visited {
   color: #000000;
