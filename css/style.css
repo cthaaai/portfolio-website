@@ -207,34 +207,23 @@ text-decoration: none;
   transition: 0.2s opacity;
   opacity: 0.7;
 }
-.button.contact{
-  display: inline-block;
-  background-color: #CBDADB;
-  color: #000000; /* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 15px;
-  border-bottom: 4px solid #719A9D; /* width of the border, type, color */
-  transition: 0.2s opacity;
+[class*="col-"] {
+float: left;
+padding: 20px;
 }
-.button.contact:visited {
-  color: #000000;
+.center {
+  text-align: center;
 }
-.button.contact:hover,
-.button.contact:focus {
-  opacity: 0.5; /* Reduces the opacity of the button to 80% */
-    color: #719A9D;
-text-decoration: none;
+footer {
+    background-color: rgb(203, 218, 219, 0.6);
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.button.contact:active {
-  background-color: #CBDADB;
-  color: #000000;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 15px;
-  border-bottom: 4px solid #719A9D;
-  transition: 0.2s opacity;
-  opacity: 0.5;
+.footernote{
+  height: 47px;
+  width: 250px;
 }
 [class*="col-"] {
 float: left;
