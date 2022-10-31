@@ -225,10 +225,6 @@ footer {
   height: 47px;
   width: 250px;
 }
-[class*="col-"] {
-float: left;
-padding: 20px;
-padding-top: 10px;
 }
 /* ==============================
 Medium devices (640px and larger)
