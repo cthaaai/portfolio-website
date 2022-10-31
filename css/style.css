@@ -225,6 +225,14 @@ footer {
   height: 47px;
   width: 250px;
 }
+#contact {
+  vertical-align: middle;
+}
+#contact p {
+  font-family: 'Playfair Display', serif;
+  opacity: 60%;
+  float: right;
+}
 }
 /* ==============================
 Medium devices (640px and larger)
