@@ -157,19 +157,19 @@ h3{
   display: table;
 }
 a {
-  color: #000000;
+  color: rgb(0, 0, 0);
   text-decoration: none; /* No underlining */
 }
 a:visited {
-  color: #00000;
+  color: rgb(0, 0, 0);
 }
 a:hover,
 a:focus {
-  color: #719A9D;
+  color: rgb(113, 154, 157);
   text-decoration: overline;
 }
 a:active { /* selected link */
-  color: #719A9D;
+  color: rgb(113, 154, 157);
 }
 .linkedin {
   height: 42px;
@@ -181,30 +181,29 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: #E3C9C9;
-  color: #000000; /* needed to override the default link color */
+  background-color: rgb(227, 201, 201);
+  color: rgb(0, 0, 0); /* needed to override the default link color */
   font-weight: 400;
   padding: 15px;
   border-radius: 10px;
-  border-bottom: 4px solid #F4E7E7; /* width of the border, type, color */
+  border-bottom: 4px solid rgb(244, 231, 231); /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:visited {
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 .button:hover,
 .button:focus {
   opacity: 0.7; /* Reduces the opacity of the button to 70% */
-      color: #BCA09E;
-text-decoration: none;
+  color: rgb(188, 160, 158);
+  text-decoration: none;
 }
 .button:active {
-  background-color: #E3C9C9;
-  color: #000000;
-  font-weight: 400;
+  background-color: rgb(227, 201, 201);
+  color: rgb(0, 0, 0);
   padding: 15px;
   border-radius: 10px;
-  border-bottom: 4px solid #F4E7E7;
+  border-bottom: 4px solid rgb(244, 231, 231);
   transition: 0.2s opacity;
   opacity: 0.7;
 }
