@@ -233,6 +233,47 @@ footer {
   opacity: 60%;
   float: right;
 }
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  top: 90%;
+  left: 50%;
+  margin-left: -30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-variant: small-caps;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: rgb(244, 231, 231);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the btop of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(244, 231, 231) transparent transparent transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 /* ==============================
 Medium devices (640px and larger)
