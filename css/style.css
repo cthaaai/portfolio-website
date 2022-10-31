@@ -305,6 +305,8 @@ Medium devices (640px and larger)
     }
     .ctphoto2{
       max-width: 600px;
+      margin: 0 auto;
+      padding-left: 30px;
     }
     #about-page p {
       max-width: 600px;
