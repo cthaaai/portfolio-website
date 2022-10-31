@@ -293,6 +293,10 @@ Medium devices (640px and larger)
 }
   .aboutct {
     float: right;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     }
     #hero p {
       height: 150px;
