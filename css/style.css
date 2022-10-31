@@ -101,6 +101,44 @@ h3{
   font-size: 1.953em;
   font-weight: 400;
 }
+.berlin-illustration{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+@keyframes color-change {
+  0% {fill: rgb(237, 198, 85);}
+  50% {fill: rgb(252, 255, 173);}
+  100% {fill: rgb(247, 100, 20);}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s;
+  animation-name: cloud-move-reverse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 #about-page p {
   text-align: left;
