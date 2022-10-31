@@ -76,6 +76,13 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+.background {
+    background-image: url(https://i.imgur.com/KKJ3Nj2.jpg2);
+    background-position: 50% 6%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 h1, h2, h3{
     line-height: 1.4;
 }
