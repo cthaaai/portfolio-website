@@ -231,9 +231,11 @@ footer {
   vertical-align: middle;
 }
 #contact p {
+  font-size: 14px;
   font-family: 'Playfair Display', serif;
   opacity: 60%;
   float: right;
+  padding-top: 18px;
 }
 /* Tooltip container */
 .tooltip {
