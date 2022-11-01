@@ -225,7 +225,7 @@ footer {
   height: 51px;
   width: 300px;
   opacity: 75%;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 #contact {
   vertical-align: middle;
@@ -236,6 +236,7 @@ footer {
   opacity: 60%;
   float: right;
   padding-top: 18px;
+  padding-right: 20px;
 }
 /* Tooltip container */
 .tooltip {
