@@ -222,8 +222,10 @@ footer {
     margin-bottom: 0;
 }
 .footernote{
-  height: 47px;
-  width: 250px;
+  height: 51px;
+  width: 300px;
+  opacity: 75%;
+  padding-left: 30px;
 }
 #contact {
   vertical-align: middle;
