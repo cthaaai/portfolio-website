@@ -28,8 +28,10 @@ header {
   display: inline-block;
   position: fixed;
   width: 100%;
-  transform: rotate(90deg) translate(100%, 0);
-  transform-origin: right top;
+  background-color: rgb(244, 231, 231);
+  margin-top: 0px;
+  /* transform: rotate(90deg) translate(100%, 0);
+  transform-origin: right top; */
 }
 header .container {
   width: 100vh;
@@ -46,11 +48,23 @@ nav > ul {
   display: inline-block;
 }
 nav > ul > li {
-  display: inline-block;
   vertical-align: middle;
   padding: 0 10px;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
 * {
   box-sizing: border-box;
@@ -64,7 +78,8 @@ nav > ul > li {
   width: 335px;
 }
 #hero h1 {
-  font-size: 40px;
+  font-size: 35px;
+  padding-top: 60px;
 }
 #hero p {
   height: 150px;
