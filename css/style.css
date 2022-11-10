@@ -418,4 +418,55 @@ content: "";
 clear: both;
 display: table;
 }
+header {
+  padding: 2px 0;
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  text-align: left;
+  transform: rotate(90deg) translate(100%, 0);
+  transform-origin: right top;
+  background-color: transparent;
+}
+header .container {
+  width: 100vh;
+}
+#hero h1 {
+  padding-top: 30px;
+}
+.logo{
+  height: 42px;
+  width: 150px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+footer {
+    background-color: rgb(203, 218, 219, 0.6);
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footernote{
+  height: 51px;
+  width: 300px;
+  opacity: 75%;
+  padding-left: 20px;
+}
+#contact {
+  vertical-align: middle;
+}
+#contact p {
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  opacity: 60%;
+  float: right;
+  padding-right: 20px;
+}
 }
