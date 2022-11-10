@@ -157,6 +157,9 @@ h3{
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+.ctphoto2{
+  padding-top: 60px;
+}
 #about-page p {
   text-align: left;
   padding: 0 15px;
