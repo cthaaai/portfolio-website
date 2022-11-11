@@ -429,8 +429,10 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 40px;
 }
 header .container {
+  width: 100vh;
   margin-left: initial;
 }
 .container-small {
@@ -451,6 +453,7 @@ display: table;
 }
 header {
   padding: 2px 0;
+  padding-top: 10px;
   display: inline-block;
   position: fixed;
   width: 100%;
@@ -462,8 +465,27 @@ header {
 header .container {
   width: 100vh;
 }
+.hello{
+  height: 100px;
+  width: 100px;
+}
 #hero h1 {
   padding-top: 30px;
+  font-size: 65px;
+}
+#hero p {
+  font-size: 20px;
+  width: 600px;
+}
+.ctphoto{
+  height: 445px;
+  width: 335px;
+  padding-top: 40px;
+}
+.icons {
+  height: 70px;
+  width: 70px;
+  padding: 15px;
 }
 .logo{
   height: 42px;
@@ -499,5 +521,6 @@ footer {
   opacity: 60%;
   float: right;
   padding-right: 20px;
+  padding-top: 25px;
 }
 }
