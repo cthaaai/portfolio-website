@@ -158,7 +158,8 @@ h3{
   animation-timing-function: linear;
 }
 .ctphoto2{
-  padding-top: 60px;
+  padding-top: 100px;
+  padding-left: 40px;
 }
 #about-page p {
   text-align: left;
@@ -252,7 +253,8 @@ footer {
   font-size: 14px;
   font-family: 'Playfair Display', serif;
   opacity: 60%;
-  padding-top: 18px;
+  float: right;
+  padding-top: 10px;
   padding-left: 30px;
 }
 .iconf {
