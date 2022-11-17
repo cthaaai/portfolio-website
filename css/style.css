@@ -423,7 +423,7 @@ header .container {
       font-family: 'Playfair Display', serif;
       opacity: 60%;
       float: right;
-      padding-top: 10px;
+      padding-top: 12px;
       padding-left: 30px;
     }
     .iconf {
@@ -438,7 +438,7 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
+  padding: 20px;
 }
 header .container {
   width: 100vh;
@@ -512,7 +512,6 @@ footer {
     background-color: rgb(203, 218, 219, 0.6);
     display: inline-block;
     width: 100%;
-    padding-top: 20px;
     margin-bottom: 0;
 }
 .footernote{
