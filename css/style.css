@@ -347,6 +347,7 @@ header .container {
 }
 .navtoggle li:not(:last-child) {
   display: inline-block;
+  padding-bottom: 12px;
 }
 .navtoggle li:last-child {
   display: none;
