@@ -30,6 +30,7 @@ header {
   width: 100%;
   background-color: rgb(244, 231, 231);
   margin-top: 0px;
+  z-index: 1;
   /* transform: rotate(90deg) translate(100%, 0);
   transform-origin: right top; */
 }
