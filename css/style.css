@@ -348,7 +348,7 @@ header .container {
 .navtoggle.responsive li  {
     float: none;
     vertical-align: middle;
-    padding-bottom: 20px;
+    padding-top: 12px;
 }
 .navtoggle li:not(:last-child) {
   display: inline-block;
@@ -356,6 +356,7 @@ header .container {
 }
 .navtoggle li:last-child {
   display: none;
+  padding-bottom: 12px;
 }
 .hello{
   height: 60px;
