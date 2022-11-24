@@ -345,6 +345,11 @@ header .container {
   max-width: 150px;
   vertical-align: middle;
 }
+.navtoggle.responsive li  {
+    float: none;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
 .navtoggle li:not(:last-child) {
   display: inline-block;
   padding-bottom: 12px;
@@ -501,6 +506,11 @@ header .container {
   width: 150px;
   max-width: 150px;
   vertical-align: middle;
+}
+.navtoggle.responsive li  {
+    float: none;
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 .navtoggle li:not(:last-child) {
   display: inline-block;
